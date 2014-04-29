@@ -43,7 +43,7 @@ Not tested:
 
 9. Once the admin username and password are provided, **Simple Package Creator.app** will create the installer package and prompt you when it's finished.
 
-10. Click **OK** at the prompt and a new Finder window will open and display the newly-created payload-free package.
+10. Click **OK** at the prompt and a new Finder window will open and display the newly-created installer package.
 
 11. **Simple Package Creator.app** will automatically exit.
 
@@ -60,7 +60,7 @@ Everyone: (read-only)
 ***How Simple Package Creator.app works***
 
 
-**Simple Package Creator.app** is an Automator application that uses AppleScript, shell scripting and pkgbuild behind the scenes to create payload-free packages. When a script is selected, the following process takes place:
+**Simple Package Creator.app** is an Automator application that uses AppleScript, shell scripting and **pkgbuild** behind the scenes to create payload-free packages. When a script is selected, the following process takes place:
 
 1. The script is copied to **/tmp** as a zip archive named **simple_package_creator_tempfile.zip**, to give the package-building script a consistent value to work with.
 
@@ -72,7 +72,7 @@ Everyone: (read-only)
 
 5. The application zip archive's contents are extracted to **/tmp/package_name_here/Payload**
 
-6. The installer package is built by pkgbuild using the application now stored in **/tmp/package_name_here/Payload**
+6. The installer package is built by **pkgbuild** using the application now stored in **/tmp/package_name_here/Payload**
 
 7. The **simple_package_creator_tempfile.zip** file is removed from **/tmp**.
 
