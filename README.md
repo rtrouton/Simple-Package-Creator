@@ -33,11 +33,11 @@ Not tested:
 
 4. Once you've selected the self-contained application, the application will be copied to a temporary build location and a dialog window will appear to let you know that this may take a little while.
 
-5. you'll be prompted to name the installer package. By default, the name filled in will be **My Great Application Installer Package**, but this name can be changed as desired.
+5. You'll be prompted to name the installer package. By default, the name filled in will be **My Great Application Installer Package**, but this name can be changed as desired.
 
 6. Once you've entered a name for the installer package, you'll be prompted for a package identifier. By default, the name filled in will be **com.github.simple_package**, but this name should be changed to be something unique.
 
-7. Once you've entered a name for the installer package, you'll be prompted for a version number. By default, the value filled in will be **1.0**, but this value should be changed to be something unique (preferably related to the application's version number.)
+7. Once you've entered an identifier for the installer package, you'll be prompted for a version number. By default, the value filled in will be **1.0**, but this value should be changed to be something unique (preferably related to the application's version number.)
 
 8. Once the package name, package identifier and package version have been set, **Simple Package Creator.app** will prompt for an administrator's username and password.
 
