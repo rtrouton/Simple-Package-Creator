@@ -27,7 +27,7 @@ Not tested:
 
 1. As needed, download the **Simple_Package_Creator_Installer.zip** file from the **installer** directory in this GitHub repo.
 
-2. Once downloaded and unzipped, double-click on the **Simple Package Creator** application.
+2. Once downloaded and installed, double-click on the **Simple Package Creator** application.
 
 3. You'll be prompted to select the self-contained application that you want to create an installer package from.
 
