@@ -62,9 +62,9 @@ Everyone: (read-only)
 ***How Simple Package Creator.app works***
 
 
-**Simple Package Creator.app** is an Automator application that uses AppleScript, shell scripting and **pkgbuild** behind the scenes to create payload-free packages. When a script is selected, the following process takes place:
+**Simple Package Creator.app** an Automator application that will allow the selection of a self-contained application and creates an installer package that enables the installation of the application with pre-set permissions into **/Applications**. When a script is selected, the following process takes place:
 
-1. The script is copied to **/tmp** as a zip archive named **simple_package_creator_tempfile.zip**, to give the package-building script a consistent value to work with.
+1. The self-contained application is copied to **/tmp** as a zip archive named **simple_package_creator_tempfile.zip**, to give the package-building script a consistent value to work with.
 
 2. After the package name, package identifier and package version are set, **/tmp** is checked to make sure that there is not an existing directory that is named the same as the chosen name. If a matching directory is found, it is removed.
 
