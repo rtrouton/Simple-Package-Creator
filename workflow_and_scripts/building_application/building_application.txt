@@ -1,0 +1,14 @@
+Once you have created the Automator application, you will need to do the following steps:
+
+1. Unzip the following files:
+
+* workflow_scripts_and_icons/icon/Simple_Package_Creator_Folder_Icon.zip
+* workflow_scripts_and_icons/icon/Simple_Package_Creator_Icon_icons.zip
+
+2. Give the Automator application the Simple Package Creator.app folder icon.
+
+3. Go into Simple Package Creator.app/Contents/Resources and remove the following file:
+
+AutomatorApplet.icns
+
+4. Rename the unzipped application_icons.zip file to be AutomatorApplet.icns and copy it to Simple Package Creator.app/Contents/Resources.
