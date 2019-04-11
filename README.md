@@ -3,33 +3,15 @@ Simple-Package-Creator
 
 **OS Compatibility:**
 
-**Simple Package Creator.app** has been tested and verified to run on the following versions of macOS and OS X:
+**Simple Package Creator.app** has been tested and verified to run on the following versions of macOS:
 
-**10.14.x**
+* 10.14.4
+* 10.13.6
+* 10.12.6
 
-**10.13.x**
+Not tested on the following versions of OS X:
 
-**10.12.x**
-
-**10.11.x**
-
-**10.10.x**
-
-**10.9.x**
-
-
-**Simple Package Creator.app** has been tested and verified that it does not run on the following version of OS X:
-
-**10.8.x**
-
-**10.7.x**
-
-**10.6.x**
-
-
-Not tested:
-
-**10.5.x or earlier**
+* 10.11.6 or earlier
 
 ============================
 
