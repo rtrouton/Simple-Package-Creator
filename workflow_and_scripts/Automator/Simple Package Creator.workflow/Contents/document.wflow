@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>417</string>
+	<string>512</string>
 	<key>AMApplicationVersion</key>
-	<string>2.6</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>521.500000:248.000000</string>
+				<string>561.000000:247.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -153,7 +153,7 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		display dialog "In the next window, select the drag and drop application to use when creating your installer package." buttons {"OK"} default button 1 with icon "AutomatorApplet.icns"		return inputend run</string>
+					<string>on run {input, parameters}		display dialog "In the next window, select the drag and drop application to use when creating your installer package." buttons {"OK"} default button 1 with icon "ApplicationStub.icns"		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -207,7 +207,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>521.500000:494.000000</string>
+				<string>561.000000:492.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -316,9 +316,9 @@ end run</string>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<integer>0</integer>
 						<key>name</key>
-						<string>multipleSelection</string>
+						<string>granularity</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -329,9 +329,9 @@ end run</string>
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<false/>
 						<key>name</key>
-						<string>granularity</string>
+						<string>multipleSelection</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -369,7 +369,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>521.500000:650.000000</string>
+				<string>561.000000:643.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -417,7 +417,7 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		-- To fix an issue with Automator's "Ask for Finder Items" not displaying the	-- text in the "Prompt:" section on OS X 10.11.x, this AppleScript dialog window	-- is being added to inform the user of what to do when the selection window appears.		display dialog "In the next window, select the drag and drop application to use when creating your installer package." buttons {"OK"} default button 1 with icon "AutomatorApplet.icns"		return inputend run</string>
+					<string>on run {input, parameters}		-- To fix an issue with Automator's "Ask for Finder Items" not displaying the	-- text in the "Prompt:" section on OS X 10.11.x, this AppleScript dialog window	-- is being added to inform the user of what to do when the selection window appears.		display dialog "In the next window, select the drag and drop application to use when creating your installer package." buttons {"OK"} default button 1 with icon "ApplicationStub.icns"		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -471,7 +471,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>521.500000:896.000000</string>
+				<string>561.000000:888.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -579,9 +579,9 @@ end run</string>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string>~/Desktop</string>
+						<false/>
 						<key>name</key>
-						<string>destinationPath</string>
+						<string>ignoreUnreadableItems</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -592,9 +592,9 @@ end run</string>
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string></string>
 						<key>name</key>
-						<string>ignoreUnreadableItems</string>
+						<string>archiveName</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -605,9 +605,9 @@ end run</string>
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<string>~/Desktop</string>
 						<key>name</key>
-						<string>archiveName</string>
+						<string>destinationPath</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -619,7 +619,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>521.500000:1047.000000</string>
+				<string>561.000000:1038.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Create Archive.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -721,7 +721,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>521.500000:1293.000000</string>
+				<string>561.000000:1283.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -731,35 +731,35 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>02CC6976-A43A-4063-A2EB-B0F6BD8B3043</key>
-		<dict>
-			<key>from</key>
-			<string>BE30C015-52AF-45A1-9B17-BE44451A189E - BE30C015-52AF-45A1-9B17-BE44451A189E</string>
-			<key>to</key>
-			<string>BB5D869C-9482-4756-83AB-2E2D52603639 - BB5D869C-9482-4756-83AB-2E2D52603639</string>
-		</dict>
-		<key>22ED2833-64B3-48A6-B308-19524B447B87</key>
-		<dict>
-			<key>from</key>
-			<string>715584CE-E634-4C48-98DB-6E830B526A12 - 715584CE-E634-4C48-98DB-6E830B526A12</string>
-			<key>to</key>
-			<string>FAA6A9A2-B627-4044-95EF-66D7FB5BBE99 - FAA6A9A2-B627-4044-95EF-66D7FB5BBE99</string>
-		</dict>
-		<key>829F77DD-615D-4865-9A1A-0D95FD5FD92B</key>
-		<dict>
-			<key>from</key>
-			<string>BB5D869C-9482-4756-83AB-2E2D52603639 - BB5D869C-9482-4756-83AB-2E2D52603639</string>
-			<key>to</key>
-			<string>715584CE-E634-4C48-98DB-6E830B526A12 - 715584CE-E634-4C48-98DB-6E830B526A12</string>
-		</dict>
-		<key>E36F0609-43CA-4461-85BE-C2A0B9B50E39</key>
+		<key>02F9D8D0-452F-46AC-B698-33772E910515</key>
 		<dict>
 			<key>from</key>
 			<string>FAA6A9A2-B627-4044-95EF-66D7FB5BBE99 - FAA6A9A2-B627-4044-95EF-66D7FB5BBE99</string>
 			<key>to</key>
 			<string>2373ADA5-9EBE-4D8C-83DD-A201913F4475 - 2373ADA5-9EBE-4D8C-83DD-A201913F4475</string>
 		</dict>
-		<key>FBCF040B-53D0-4A66-A79D-5447D42D6720</key>
+		<key>172A5228-7908-4C52-8C39-B30A1E329159</key>
+		<dict>
+			<key>from</key>
+			<string>715584CE-E634-4C48-98DB-6E830B526A12 - 715584CE-E634-4C48-98DB-6E830B526A12</string>
+			<key>to</key>
+			<string>FAA6A9A2-B627-4044-95EF-66D7FB5BBE99 - FAA6A9A2-B627-4044-95EF-66D7FB5BBE99</string>
+		</dict>
+		<key>83D146A0-4C52-412C-8D67-944DC664CC17</key>
+		<dict>
+			<key>from</key>
+			<string>BB5D869C-9482-4756-83AB-2E2D52603639 - BB5D869C-9482-4756-83AB-2E2D52603639</string>
+			<key>to</key>
+			<string>715584CE-E634-4C48-98DB-6E830B526A12 - 715584CE-E634-4C48-98DB-6E830B526A12</string>
+		</dict>
+		<key>E173F687-CBA6-43F7-AE61-F37A8EA27991</key>
+		<dict>
+			<key>from</key>
+			<string>BE30C015-52AF-45A1-9B17-BE44451A189E - BE30C015-52AF-45A1-9B17-BE44451A189E</string>
+			<key>to</key>
+			<string>BB5D869C-9482-4756-83AB-2E2D52603639 - BB5D869C-9482-4756-83AB-2E2D52603639</string>
+		</dict>
+		<key>F114ABE9-7990-413A-A750-5889DD0B7AD4</key>
 		<dict>
 			<key>from</key>
 			<string>2373ADA5-9EBE-4D8C-83DD-A201913F4475 - 2373ADA5-9EBE-4D8C-83DD-A201913F4475</string>

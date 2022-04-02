@@ -9,6 +9,6 @@ Once you have created the Automator application, you will need to do the followi
 
 3. Go into Simple Package Creator.app/Contents/Resources and remove the following file:
 
-AutomatorApplet.icns
+ApplicationStub.icns
 
-4. Rename the unzipped application_icons.zip file to be AutomatorApplet.icns and copy it to Simple Package Creator.app/Contents/Resources.
+4. Rename the unzipped application_icons.zip file to be ApplicationStub.icns and copy it to Simple Package Creator.app/Contents/Resources.
